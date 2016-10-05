@@ -134,3 +134,58 @@ element.style {
     left: auto;
     right: auto;
 }
+.step {
+        background-color: purple;
+    width: 150px;
+    height: 200;
+    /* margin: 20px; */
+    display: inline-block;
+}
+}
+.procedure {
+    margin: auto;
+    flex-wrap: nowrap;
+    padding: 0 0 0 110px;
+}
+.connector{
+    width: 85px;
+    height:2px;
+    background-color: green;
+}
+.procedure {
+    height: 300px;
+    width: 100%;
+    padding-left: 73px;
+}
+
+
+
+
+div#testimonial {
+    display: flex;
+    width: 100%;
+    margin: auto;
+        margin-left: 20%;
+}
+.Content {
+  clear: both;
+}
+
+.Shape {
+  display: block;
+  width: 10rem;
+  height: 10rem;
+  background-color: #eee;
+}
+.Shape--left {
+  float: left;
+}
+
+.Shape--circle {
+  border-radius: 50%;
+  shape-outside: circle();
+}
+div#testimonial_cont {
+    display: flex;
+    justify-content: space-around;
+}
