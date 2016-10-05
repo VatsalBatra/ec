@@ -1,0 +1,136 @@
+  html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+*{
+  box-sizing: border-box;
+}
+body{
+	background-color: yellow;
+}
+
+#contact_info{
+	display: inline-flex;
+}
+#outer_contact_info{
+	background-color: black;
+}
+#subs_button {
+    position: relative;
+    top: -12%;
+    left: 70%;
+    background-color: yellow;
+
+    border-radius: 55;
+    color: black;
+    height: 40px;
+}
+#my_logo {
+    background-color: red;
+    height: 88px;
+    width: 7%;
+    position: absolute;
+    top: 5%;
+}
+#search_box{
+      background-color: green;
+    height: 31px;
+    width: 107px;
+    border-radius: 5px;
+    -webkit-transition: width .8s; /* For Safari 3.1 to 6.0 */
+    transition: width .8s;
+}
+#search_box:focus{
+    width: 300px;
+}
+
+#contactlogo{
+	color: yellow;
+}
+#contact_info p{
+	color:yellow;
+}
+#contact_info li{
+    color:white;
+}
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+    background-color:#f5f5f5;
+}
+#scrollup {
+    color: white;
+    background-color: yellow;
+    display: relative;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    float: right;
+    position: relative;
+    top: -73px;
+    left: -9px;
+}
+.products {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 11px;
+    border-radius: 0 100px 100px 0;
+   -webkit-transition: width 1.2s; /* For Safari 3.1 to 6.0 */
+    transition: width 1.2s;
+   
+
+}
+.products:hover{
+background-color: red;
+ width: 250px;
+}
+#loginbox{
+ 
+    background-color: green;
+}
+
+#cart{
+    float:right;
+
+}
+div#outer_search_box {
+    position: relative;
+    top: -441px;
+    left: 39%;
+}
+#searchbutton {
+    position: relative;
+    left: 24%;
+    top: -26px;
+}
+.coupon_slip{
+    background-color: red;
+        height: 207px;
+    margin: 25px;
+}
+
+
+
+.row .col.s3 {
+    width: 25%;
+    margin-left: 37px;
+    left: auto;
+    right: auto;
+       
+    margin: 37px;
+
+
+
+}
+element.style {
+    width: 67%;
+    margin: auto;
+}
+.row .col.s3 {
+    width: 25%;
+    margin-left: 36px;
+     border-radius: 59px;
+    left: auto;
+    right: auto;
+}
